@@ -35,5 +35,5 @@ app.get('/api/:name', (request, response) =>{
 })
 
 app.listen(process.env.PORT || PORT, () =>{
-    console.log(`server.js is running on ${PORT}`)
+    console.log(`server.js is running on ${process.env.PORT || PORT}`)
 })
